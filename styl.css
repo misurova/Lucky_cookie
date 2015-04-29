@@ -1,10 +1,10 @@
 body{
-background-image: url(dots.png);
+background-image: url(img/dots.png);
 }
 
 
 header{
-background-image: url(lucky2.png) ;
+background-image: url(img/lucky2.png) ;
 height: 250px;
 width: 800px;
 background-repeat: no-repeat;
@@ -129,7 +129,7 @@ margin-top: 8px;
 }
 
 article ul li {
-list-style-image: url(cookie.png);
+list-style-image: url(img/cookie.png);
 font-family: 'Century Gothic', 'Apple Gothic', sans-serif;
 
 
