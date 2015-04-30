@@ -24,6 +24,7 @@ div.center{
 }
 
 nav{
+//width: 1000px;   
 height: 100px;
 margin-left: auto;
 margin-right: auto;
@@ -55,6 +56,7 @@ color: rgb(255,0,102);
 
 nav ul li a:hover {
 
+text-shadow: 20px rgb(0,0,0);
 text-decoration: underline;
 
 }
@@ -88,9 +90,9 @@ color: rgb(153,0,51);
 }
 
 .uvodny article img{
-width: 60%;
+width: 70%;
 border: 5px solid rgb(0,0,0);
-margin-left: 150px;
+margin-left: 95px;
 
 
 }
@@ -132,90 +134,3 @@ font-family: 'Century Gothic', 'Apple Gothic', sans-serif;
 
 
 }
-
-
-.formular{
-border: 5px dotted rgb(71,71,71);    
-background-color: rgb(255,220,220);
-width: 520px;
-height: 270px;
-
-border-radius: 20px;
-margin-left: 130px;
-
-}
-
-.formular input{
-display: block;
-position: relative;
-left: 7em;
-top: -1.5em;
-border:  none ;
-background: rgb(255,220,220);
-border-bottom: medium dotted rgb(0,0,0);
-padding: 5px 10px 5px 10px;
-
-
-
-}
-
-.formular label{
-padding-left: 10px;
-font-family: 'Century Gothic', 'Apple Gothic', sans-serif;
-color: rgb(255,0,102);
-font-weight: bolder;
-
-}
-
-.formular h3{
-font-family: 'Century Gothic', 'Apple Gothic', sans-serif;
-font-size: 20px;
-color: rgb(192,0,80);
-}
-
-.formular input[type=reset]  {
-border: medium solid rgb(0,0,0);
-border-radius: 15px;
-width: auto;
-left:15px;
-float: left;
-top:0.3px;
-background-color: rgb(208,0,128);
-font-family: 'Century Gothic', 'Apple Gothic', sans-serif;
-color: rgb(255,255,255);
-}
-
-.formular input[type=submit]  {
-border: medium solid rgb(0,0,0);
-border-radius: 15px;
-width: auto;
-left:-15px;
-float: right;
-top:0.4px;
-background-color: rgb(208,0,128);
-font-family: 'Century Gothic', 'Apple Gothic', sans-serif;
-color: rgb(255,255,255);
-}
-
-#sprava{
-width: 400px;
-
-}
-
- #mail{
- 
-   width: 400px;
- }
- 
- footer{
- font-family: Arial, sans-serif;
- font-size: 13px;
- color: rgb(153,0,51);
- }
- 
- .kimlicka img{
- width: 100%;
- }
- .kimlicka{
- font-family: Arial, sans-serif;
- }
